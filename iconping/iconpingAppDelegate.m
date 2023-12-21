@@ -108,7 +108,7 @@ int64_t ustime(void) {
     struct ICMPHeader icmp;
     
     if (s == -1) return;
-    inet_aton("8.8.8.8", &sa.sin_addr);
+    inet_aton("10.8.1.30", &sa.sin_addr);
     setSocketNonBlocking(s);
     
     /* Note that we create always a new socket, with a different identifier
