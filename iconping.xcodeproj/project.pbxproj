@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		14179BF72B344217003231C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		B6869B9B13DD8DDE00F2D69B /* ping-mini-rec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ping-mini-rec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6869B9B13DD8DDE00F2D69B /* ping-macbook-live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ping-macbook-live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6869B9F13DD8DDE00F2D69B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B6869BA213DD8DDE00F2D69B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B6869BA313DD8DDE00F2D69B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -67,7 +67,7 @@
 		B6869B9C13DD8DDE00F2D69B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6869B9B13DD8DDE00F2D69B /* ping-mini-rec.app */,
+				B6869B9B13DD8DDE00F2D69B /* ping-macbook-live.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,9 +120,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6869B9A13DD8DDE00F2D69B /* ping-mini-rec */ = {
+		B6869B9A13DD8DDE00F2D69B /* ping-macbook-live */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6869BB913DD8DDE00F2D69B /* Build configuration list for PBXNativeTarget "ping-mini-rec" */;
+			buildConfigurationList = B6869BB913DD8DDE00F2D69B /* Build configuration list for PBXNativeTarget "ping-macbook-live" */;
 			buildPhases = (
 				B6869B9713DD8DDE00F2D69B /* Sources */,
 				B6869B9813DD8DDE00F2D69B /* Frameworks */,
@@ -132,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = "ping-mini-rec";
+			name = "ping-macbook-live";
 			productName = iconping;
-			productReference = B6869B9B13DD8DDE00F2D69B /* ping-mini-rec.app */;
+			productReference = B6869B9B13DD8DDE00F2D69B /* ping-macbook-live.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -160,7 +160,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6869B9A13DD8DDE00F2D69B /* ping-mini-rec */,
+				B6869B9A13DD8DDE00F2D69B /* ping-macbook-live */,
 			);
 		};
 /* End PBXProject section */
@@ -334,10 +334,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iconping/iconping-Prefix.pch";
 				INFOPLIST_FILE = "iconping/iconping-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "mini-rec";
+				INFOPLIST_KEY_CFBundleDisplayName = "macbook-live";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spiritviews.iconping;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spiritviews.iconping.macbook-live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -358,10 +358,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iconping/iconping-Prefix.pch";
 				INFOPLIST_FILE = "iconping/iconping-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "mini-rec";
+				INFOPLIST_KEY_CFBundleDisplayName = "macbook-live";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.spiritviews.iconping;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.spiritviews.iconping.macbook-live";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
@@ -381,7 +381,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6869BB913DD8DDE00F2D69B /* Build configuration list for PBXNativeTarget "ping-mini-rec" */ = {
+		B6869BB913DD8DDE00F2D69B /* Build configuration list for PBXNativeTarget "ping-macbook-live" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B6869BBA13DD8DDE00F2D69B /* Debug */,
